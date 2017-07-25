@@ -1,0 +1,46 @@
+.container {
+    max-width: 700;
+}
+
+.dank {
+    margin-top: 2px;
+    height: 40px;
+    border-width: 100px;
+    border-radius: 25px;
+    background-color: lightblue;
+    border-style: lightblue;
+    border-width: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+.bottext {
+    display:none;
+    width: 50%;
+    margin-top: 2px;
+    height: 40px;
+    border-width: 100px;
+    border-radius: 25px;
+    background-color: lightgreen;
+    border-style: lightgreen;
+    border-width: 2px 2px 2px 2px;
+    text-align: center;
+}
+#bot{
+    width:100%;
+    float: left;
+    
+}
+#myinput{
+    width: 50%;
+    float:right;
+}
+.posts {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.bottom{
+    width: 70%;
+    position: fixed; /* This will be always visible and positioned where you want */
+    bottom: 0; /* place it to the bottom */
+}
