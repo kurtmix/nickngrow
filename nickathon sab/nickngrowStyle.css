@@ -1,0 +1,58 @@
+@font-face{
+	font-family: Lite Bulb;
+	src: url(Lite Bulb.ttf);
+}
+
+#charPick{
+	font-family: Lite Bulb;
+	src: url(sansation_light.woff);
+	color: #FF6700;
+	text-align: center;
+	font-size: 80px;
+}
+
+#container{
+	width:100%;
+	height:100%;
+	background-color: #FF6700;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+.iconContainer{
+	width: 100%;
+  	margin: 0 auto;
+
+	
+}
+.iconPic{
+	height:250px;
+	display: inline-block;
+	padding-left: 23px;
+	
+}
+
+#header{
+	background-color: #FF6700;
+	height:100px;
+	width:100%;
+}
+
+#subHead{
+	height:200px;
+	width:100%;
+	background-color: #e0e1e2;
+}
+
+#charIcon{
+	float:left;
+
+}
+
+.input-group{
+	position:fixed;
+    bottom:0;
+    width:100%;
+  	right: 0;
+  	left: 0;
+}
