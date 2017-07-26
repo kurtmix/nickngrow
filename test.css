@@ -1,27 +1,47 @@
 .container {
     max-width: 700;
 }
-
+#sponge{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+    padding-top: 10px;
+    width:100%;
+    float: left;
+}
 .dank {
+    float:right;
+    width:50%;
+    margin-top: 2px;
+    height: 40px;
+    border-width: 100px;
+    border-radius: 25px;
+    background-color:#FFA500 ;
+    border-style:;
+    border-width: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+.bottext {
+  
+    width: 50%;
     margin-top: 2px;
     height: 40px;
     border-width: 100px;
     border-radius: 25px;
     background-color: lightblue;
     border-style: lightblue;
-    border-width: 2px 2px 2px 2px;
-    text-align: center;
-}
-
-.bottext {
-    display:none;
-    width: 50%;
-    margin-top: 2px;
-    height: 40px;
-    border-width: 100px;
-    border-radius: 25px;
-    background-color: lightgreen;
-    border-style: lightgreen;
     border-width: 2px 2px 2px 2px;
     text-align: center;
 }
